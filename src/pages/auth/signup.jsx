@@ -66,6 +66,7 @@ const Signup = () => {
           });
         }
         if(data.status){
+          console.log(username)
           navigate('/home')
         }
       
